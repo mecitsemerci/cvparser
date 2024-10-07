@@ -1,0 +1,42 @@
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Ignore package-lock.json files
+package-lock.json
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore any sensitive files
+.env
